@@ -1,7 +1,7 @@
 package puppetagent
 
 import (
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/yevheniir/telegraf-fork/testutil"
 	"testing"
 )
 

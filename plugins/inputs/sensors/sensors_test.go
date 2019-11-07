@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/yevheniir/telegraf-fork/testutil"
 )
 
 func TestGatherDefault(t *testing.T) {

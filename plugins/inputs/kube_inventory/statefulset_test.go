@@ -7,7 +7,7 @@ import (
 	"github.com/ericchiang/k8s/apis/apps/v1"
 	metav1 "github.com/ericchiang/k8s/apis/meta/v1"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/yevheniir/telegraf-fork/testutil"
 )
 
 func TestStatefulSet(t *testing.T) {

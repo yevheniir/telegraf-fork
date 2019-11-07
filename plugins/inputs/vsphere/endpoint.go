@@ -15,9 +15,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/telegraf/filter"
+	"github.com/yevheniir/telegraf-fork/filter"
 
-	"github.com/influxdata/telegraf"
+	"github.com/yevheniir/telegraf-fork"
 	"github.com/vmware/govmomi/object"
 	"github.com/vmware/govmomi/performance"
 	"github.com/vmware/govmomi/vim25/mo"

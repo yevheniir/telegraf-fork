@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/rotate"
+	"github.com/yevheniir/telegraf-fork/internal"
+	"github.com/yevheniir/telegraf-fork/internal/rotate"
 	"github.com/influxdata/wlog"
 )
 

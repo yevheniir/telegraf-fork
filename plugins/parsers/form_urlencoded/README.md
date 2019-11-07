@@ -21,7 +21,7 @@ request body or query params.
   ## Data format to consume.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/yevheniir/telegraf-fork/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "form_urlencoded"
 
   ## Array of key names which should be collected as tags.

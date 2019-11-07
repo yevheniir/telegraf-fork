@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/yevheniir/telegraf-fork"
+	"github.com/yevheniir/telegraf-fork/metric"
 )
 
 // getExitCode get the exit code from an error value which is the result

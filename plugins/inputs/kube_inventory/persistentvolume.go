@@ -6,7 +6,7 @@ import (
 
 	"github.com/ericchiang/k8s/apis/core/v1"
 
-	"github.com/influxdata/telegraf"
+	"github.com/yevheniir/telegraf-fork"
 )
 
 func collectPersistentVolumes(ctx context.Context, acc telegraf.Accumulator, ki *KubernetesInventory) {

@@ -16,10 +16,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	tlsint "github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/yevheniir/telegraf-fork"
+	"github.com/yevheniir/telegraf-fork/internal"
+	tlsint "github.com/yevheniir/telegraf-fork/internal/tls"
+	"github.com/yevheniir/telegraf-fork/plugins/outputs"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

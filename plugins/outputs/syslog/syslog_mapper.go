@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/influxdata/go-syslog/rfc5424"
-	"github.com/influxdata/telegraf"
+	"github.com/yevheniir/telegraf-fork"
 )
 
 type SyslogMapper struct {

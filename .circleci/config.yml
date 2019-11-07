@@ -1,7 +1,7 @@
 ---
 defaults:
   defaults: &defaults
-    working_directory: '/go/src/github.com/influxdata/telegraf'
+    working_directory: '/go/src/github.com/yevheniir/telegraf-fork'
     environment:
       GOFLAGS: -p=8
   go-1_12: &go-1_12

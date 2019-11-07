@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/influxdata/telegraf"
+	"github.com/yevheniir/telegraf-fork"
 )
 
 const (

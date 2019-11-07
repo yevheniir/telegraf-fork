@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs/health"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/yevheniir/telegraf-fork"
+	"github.com/yevheniir/telegraf-fork/plugins/outputs/health"
+	"github.com/yevheniir/telegraf-fork/testutil"
 	"github.com/stretchr/testify/require"
 )
 

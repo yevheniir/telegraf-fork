@@ -12,14 +12,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf/metric"
+	"github.com/yevheniir/telegraf-fork/metric"
 
 	dialout "github.com/cisco-ie/nx-telemetry-proto/mdt_dialout"
 	telemetry "github.com/cisco-ie/nx-telemetry-proto/telemetry_bis"
 	"github.com/golang/protobuf/proto"
-	"github.com/influxdata/telegraf"
-	internaltls "github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/yevheniir/telegraf-fork"
+	internaltls "github.com/yevheniir/telegraf-fork/internal/tls"
+	"github.com/yevheniir/telegraf-fork/plugins/inputs"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 

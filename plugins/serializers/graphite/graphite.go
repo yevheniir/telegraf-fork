@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/influxdata/telegraf"
+	"github.com/yevheniir/telegraf-fork"
 )
 
 const DEFAULT_TEMPLATE = "host.tags.measurement.field"

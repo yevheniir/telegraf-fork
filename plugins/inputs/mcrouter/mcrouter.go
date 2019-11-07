@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/yevheniir/telegraf-fork"
+	"github.com/yevheniir/telegraf-fork/internal"
+	"github.com/yevheniir/telegraf-fork/plugins/inputs"
 )
 
 // Mcrouter is a mcrouter plugin

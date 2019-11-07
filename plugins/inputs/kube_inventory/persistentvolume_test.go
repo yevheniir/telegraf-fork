@@ -7,7 +7,7 @@ import (
 	"github.com/ericchiang/k8s/apis/core/v1"
 	metav1 "github.com/ericchiang/k8s/apis/meta/v1"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/yevheniir/telegraf-fork/testutil"
 )
 
 func TestPersistentVolume(t *testing.T) {

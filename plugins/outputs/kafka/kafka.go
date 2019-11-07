@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/Shopify/sarama"
-	"github.com/influxdata/telegraf"
-	tlsint "github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/yevheniir/telegraf-fork"
+	tlsint "github.com/yevheniir/telegraf-fork/internal/tls"
+	"github.com/yevheniir/telegraf-fork/plugins/outputs"
+	"github.com/yevheniir/telegraf-fork/plugins/serializers"
 	uuid "github.com/satori/go.uuid"
 )
 
@@ -181,7 +181,7 @@ var sampleConfig = `
   ## Data format to output.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
+  ## https://github.com/yevheniir/telegraf-fork/blob/master/docs/DATA_FORMATS_OUTPUT.md
   # data_format = "influx"
 `
 

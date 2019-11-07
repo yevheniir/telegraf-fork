@@ -1,9 +1,9 @@
 package syslog
 
 import (
-	"github.com/influxdata/telegraf/internal"
-	framing "github.com/influxdata/telegraf/internal/syslog"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/yevheniir/telegraf-fork/internal"
+	framing "github.com/yevheniir/telegraf-fork/internal/syslog"
+	"github.com/yevheniir/telegraf-fork/testutil"
 	"time"
 )
 

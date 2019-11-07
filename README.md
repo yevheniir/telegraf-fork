@@ -23,16 +23,16 @@ You can try Telegraf right in your browser in the [Telegraf playground](https://
 ## Contributing
 
 There are many ways to contribute:
-- Fix and [report bugs](https://github.com/influxdata/telegraf/issues/new)
-- [Improve documentation](https://github.com/influxdata/telegraf/issues?q=is%3Aopen+label%3Adocumentation)
-- [Review code and feature proposals](https://github.com/influxdata/telegraf/pulls)
+- Fix and [report bugs](https://github.com/yevheniir/telegraf-fork/issues/new)
+- [Improve documentation](https://github.com/yevheniir/telegraf-fork/issues?q=is%3Aopen+label%3Adocumentation)
+- [Review code and feature proposals](https://github.com/yevheniir/telegraf-fork/pulls)
 - Answer questions and discuss here on github and on the [Community Site](https://community.influxdata.com/)
 - [Contribute plugins](CONTRIBUTING.md)
 
 ## Installation:
 
 You can download the binaries directly from the [downloads](https://www.influxdata.com/downloads) page
-or from the [releases](https://github.com/influxdata/telegraf/releases) section.
+or from the [releases](https://github.com/yevheniir/telegraf-fork/releases) section.
 
 ### Ansible Role:
 
@@ -46,11 +46,11 @@ Telegraf requires golang version 1.12 or newer, the Makefile requires GNU make.
 2. [Install dep](https://golang.github.io/dep/docs/installation.html) ==v0.5.0
 3. Download Telegraf source:
    ```
-   go get -d github.com/influxdata/telegraf
+   go get -d github.com/yevheniir/telegraf-fork
    ```
 4. Run make from the source directory
    ```
-   cd "$HOME/go/src/github.com/influxdata/telegraf"
+   cd "$HOME/go/src/github.com/yevheniir/telegraf-fork"
    make
    ```
 

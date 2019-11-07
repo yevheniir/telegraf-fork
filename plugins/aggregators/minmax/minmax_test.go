@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/yevheniir/telegraf-fork/metric"
+	"github.com/yevheniir/telegraf-fork/testutil"
 )
 
 var m1, _ = metric.New("m1",

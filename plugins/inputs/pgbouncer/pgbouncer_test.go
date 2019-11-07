@@ -2,8 +2,8 @@ package pgbouncer
 
 import (
 	"fmt"
-	"github.com/influxdata/telegraf/plugins/inputs/postgresql"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/yevheniir/telegraf-fork/plugins/inputs/postgresql"
+	"github.com/yevheniir/telegraf-fork/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"

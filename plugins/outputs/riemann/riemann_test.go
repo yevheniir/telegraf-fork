@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/amir/raidman"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/yevheniir/telegraf-fork/metric"
 	"github.com/stretchr/testify/require"
 )
 

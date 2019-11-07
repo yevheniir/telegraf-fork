@@ -1,8 +1,8 @@
 package minmax
 
 import (
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/yevheniir/telegraf-fork"
+	"github.com/yevheniir/telegraf-fork/plugins/aggregators"
 )
 
 type MinMax struct {

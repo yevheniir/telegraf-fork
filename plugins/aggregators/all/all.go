@@ -1,10 +1,10 @@
 package all
 
 import (
-	_ "github.com/influxdata/telegraf/plugins/aggregators/basicstats"
-	_ "github.com/influxdata/telegraf/plugins/aggregators/final"
-	_ "github.com/influxdata/telegraf/plugins/aggregators/histogram"
-	_ "github.com/influxdata/telegraf/plugins/aggregators/merge"
-	_ "github.com/influxdata/telegraf/plugins/aggregators/minmax"
-	_ "github.com/influxdata/telegraf/plugins/aggregators/valuecounter"
+	_ "github.com/yevheniir/telegraf-fork/plugins/aggregators/basicstats"
+	_ "github.com/yevheniir/telegraf-fork/plugins/aggregators/final"
+	_ "github.com/yevheniir/telegraf-fork/plugins/aggregators/histogram"
+	_ "github.com/yevheniir/telegraf-fork/plugins/aggregators/merge"
+	_ "github.com/yevheniir/telegraf-fork/plugins/aggregators/minmax"
+	_ "github.com/yevheniir/telegraf-fork/plugins/aggregators/valuecounter"
 )

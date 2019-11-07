@@ -12,7 +12,7 @@ The modifications allowed are the ones supported by input plugins and aggregator
 * tags
 
 Select the metrics to modify using the standard
-[measurement filtering](https://github.com/influxdata/telegraf/blob/master/docs/CONFIGURATION.md#measurement-filtering)
+[measurement filtering](https://github.com/yevheniir/telegraf-fork/blob/master/docs/CONFIGURATION.md#measurement-filtering)
 options.
 
 Values of *name_override*, *name_prefix*, *name_suffix* and already present

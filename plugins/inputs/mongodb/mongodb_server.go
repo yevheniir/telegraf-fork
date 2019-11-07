@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/yevheniir/telegraf-fork"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

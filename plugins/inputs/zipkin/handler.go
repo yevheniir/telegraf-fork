@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/gorilla/mux"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/codec"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/codec/jsonV1"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/codec/thrift"
+	"github.com/yevheniir/telegraf-fork/plugins/inputs/zipkin/codec"
+	"github.com/yevheniir/telegraf-fork/plugins/inputs/zipkin/codec/jsonV1"
+	"github.com/yevheniir/telegraf-fork/plugins/inputs/zipkin/codec/thrift"
 )
 
 // SpanHandler is an implementation of a Handler which accepts zipkin thrift
