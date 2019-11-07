@@ -145,6 +145,14 @@ func (p *GraphiteParser) ParseLine(line string) (telegraf.Metric, error) {
 			if timestamp.Before(MinDate) || timestamp.After(MaxDate) {
 				return nil, fmt.Errorf("timestamp out of range")
 			}
+
+			timestamp2 := time.Now().Unix()
+			nano := time.Now().UnixNano()
+			delta := nano % 100000000
+			// timestamp *= 1000000000
+			// timestamp += delta
+
+			timestamp = time.Unix(timestamp2, delta)
 		}
 	}
 	// Set the default tags on the point if they are not already set
